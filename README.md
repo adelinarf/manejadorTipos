@@ -1,10 +1,12 @@
 # Manejador de tipos de Datos
 ### Pregunta 5
 Este manejador de tipos de datos trabaja con tipos atómicos, registros (struct) y registros variantes (union). Se pueden crear datos atómicos al colocar la palabra ATOMICO seguida del nombre del tipo, el tamaño de su representación y la alineación que tiene.
-<img src="Tipos.jpg" alt="tests"/>
 
     ATOMICO <nombre> <representación> <alineación>
-    
+
+
+<img src="Tipos.jpg" alt="tests"/>
+
  También se pueden crear tipos struct con la palabra STRUCT seguido del nombre del tipo y de los tipos que se encuentran adentro del struct.
  
     STRUCT <nombre> [<tipo>]
