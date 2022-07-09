@@ -1,6 +1,6 @@
 # Manejador de tipos de Datos
 ### Pregunta 5
-Este manejador de tipos de datos trabaja con tipos atómicos, registros (struct) y registros variantes (union). Se pueden crear datos atómicos al colocar la palabra atómico seguida del nombre del tipo, el tamaño de su representación y la alineación que tiene.
+Este manejador de tipos de datos trabaja con tipos atómicos, registros (struct) y registros variantes (union). Se pueden crear datos atómicos al colocar la palabra ATOMICO seguida del nombre del tipo, el tamaño de su representación y la alineación que tiene.
 <img src="Tipos.jpg" alt="tests"/>
 
     ATOMICO <nombre> <representación> <alineación>
@@ -27,6 +27,9 @@ También se pueden describir los tipos, por lo que se conocerá su tamaño, alin
     DESCRIBIR <nombre>
     
 En el caso de los STRUCTS se considera también los registros sin empaquetar, empaquetados y para una versión optimizada que mejora el espacio de los registros sin empaquetar.
+Para salir del programa se debe colocar la palabra SALIR únicamente
+
+    SALIR
 
 ## Unit Test
 Los unit test fueron realizados con el archivo unitTest.py y se pasaron todos los test, obteniendo un 95% de code coverage con la herramienta Coverage.py https://coverage.readthedocs.io/en/6.4.1/
